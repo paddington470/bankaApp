@@ -6,10 +6,12 @@
 <body>
     <div id = "app"><!--css class-->
         <h1>Account Balance</h1>
-        <p id='balance'></p>
-        <h2 class="balanceStyles" id = "Balance"> balance: 0</h2>
-   
-        <!--need to fix <p id="balance"></p>-->
+       <h2><span class= "balanceStyles" id = 'money'>balance: 0</span></h2>
+        <button class="buttonStyles" id= 'money' onclick="deposit()">Deposit</button>
+        
+        <button class="buttonStyles" id= 'money' onclick="withDrawal()">withDrawal</button>
+        
+
         <button class="buttonStyles" onclick="location.href= 'bankHT.html'">Back</button>
     </div>
     <script src="BankSrip.js"></script>
